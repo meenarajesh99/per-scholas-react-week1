@@ -15,3 +15,8 @@ console.log(myInfo);
 console.log('my info printed as a string in the JSON format');
 const myInfoAsJSON = JSON.stringify(myInfo);
 console.log(myInfoAsJSON);
+
+function sayHi(name){
+    return `my name is ${name}`;
+}
+console.log(sayHi("Meena"));
