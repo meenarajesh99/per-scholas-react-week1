@@ -15,7 +15,7 @@ let diameter: number;
 let circumference: number;
  ​
 function getArea(radius){
-     area = PI * radius ^ 2;
+     area = PI * radius * radius;
 ​       return `Area is ${area}`;
 }
 ​
